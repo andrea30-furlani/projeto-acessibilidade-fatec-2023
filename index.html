@@ -1,12 +1,182 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Pessoal</title>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="Mashup templates have been developped by Orson.io team" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
+  <link href="./assets/favicon.ico" rel="icon">
+
+  <title>Meu primeiro portfólio</title>
+
+  <link href="./main.d8e0d294.css" rel="stylesheet">
 </head>
-<body>
-    
-</body>
+
+<body class="">
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+
+ <!-- botao libras -->
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget({
+        rootPah: '/app',
+        personalization: 'https://vlibras.gov.br/config/default_logo.json',
+        opacity: 0.5,
+        position: 'L',
+        avatar: 'random',
+    });
+  </script>
+  <!-- fim -->
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+
+    <button id="btnContrast" onclick="toggleContrast()">Contraste</button>
+
+  </nav>
+
+
+  <!-- Add your content of header -->
+
+  <main class="content-wrapper">
+    <header class="white-text-container section-container">
+      <div class="text-center">
+        <h1>Meu portfólio</h1>
+        <h2>Andrea Cristina Reino Furlani</h2>
+        <p>Curso: Sistemas para Internet - 3° Semestre - Fatec Taquaritinga - 2023</p>
+        <p>
+          <a class="fa-icon fa-icon-2x" href="https://twitter.com/" title="">
+            <i class="fa fa-twitter"></i>
+          </a>
+
+          <a class="fa-icon fa-icon-2x" href="https://www.linkedin.com/" title="">
+            <i class="fa fa-linkedin"></i>
+          </a>
+
+          <a class="fa-icon fa-icon-2x" href="https://facebook.com/" title="">
+            <i class="fa fa-facebook"></i>
+          </a>
+
+          <a class="fa-icon fa-icon-2x" href="https://web.whatsapp.com/" title="">
+            <i class="fa fa-whatsapp"></i>
+          </a>
+        </p>
+      </div>
+    </header>
+
+
+
+    <!-- Add your site or app content here -->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+
+          <div class="card">
+            <div class="card-block">
+              <h2>Sobre mim</h2>
+              <div class="row">
+                <div class="col-md-4">
+                  <p><img src="./assets/images/andrea1.png" class="img-responsive" alt=""></p>
+                </div>
+                <div class="col-md-8">
+                  <p>Sou formada em Administração de Empresas com enfase em Marketing pela Faculdade Ites e pos graduada
+                    em Gestão Empresarial pela Faculdade Barão de Mauá.
+                    Atualmente estou no 3 semestre do curso de Sistemas para Internet na Fatec de Taquaritinga,
+                    que terá conclusão em julho/2025.</p>
+                  <br>
+                  <h2>Resumo Profissional</h2>
+                  <p>Experiência como profissional generalista em empresas na área Administrativa, Fiscal,
+                    Recursos Humanos e Planejamento e Controle de Produção (PCP). Atualmente trabalho na empresa Sisplan Consultores, empresa esta especializada em consultoria de
+                    tecnologia de informação. Atendemos grandes empresas no ramo de açucar e álcool. 
+                    Profissional com perfil ágil e focada nos resultados da equipe e da empresa. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="col-md-4">
+            <div class="education-experience">
+              <small class="date">2021-2023</small>
+              <h3 class="h5 date-title">Sisplan Consultores</h3>
+              <p>Analista Administrativo</p>
+            </div>
+          </div>
+          <!-- <div class="col-md-4">
+            <div class="education-experience">
+              <small class="date">2018-2021</small>
+              <h3 class="h5 date-title">Motion Design Course</h3>
+              <p>Pascal’s Lee Studio</p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <div class="card-block">
+        <h2>Social Network</h2>
+        <div class="row">
+          <div class="col-md-3">
+            <p class="social-buttons"><a href="https://twitter.com/" title=""><span class="social-round-icon fa-icon"><i
+                    class="fa fa-twitter"></i></span>@andrea_furlani</a></p>
+          </div>
+          <div class="col-md-3">
+            <p class="social-buttons"><a href="https://www.linkedin.com/" title=""><span
+                  class="social-round-icon fa-icon"><i class="fa fa-linkedin"></i></span>andrea_furlani</a></p>
+          </div>
+          <div class="col-md-3">
+            <p class="social-buttons"><a href="https://facebook.com/" title=""><span
+                  class="social-round-icon fa-icon"><i class="fa fa-facebook"></i></span>Andrea Furlani</a></p>
+          </div>
+          <div class="col-md-3">
+            <p class="social-buttons"><a href="https://web.whatsapp.com/" title=""><span
+                  class="social-round-icon fa-icon"><i class="fa fa-whatsapp"></i></span>(15) 16 99749-6635</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    </div>
+    </div>
+    </div>
+
+  </main>
+  <footer class="footer-container white-text-container text-center">
+    <div class="container">
+      <p>End.: Avenida Mário da Silva Camargo, n. 266, Bairro Laranjeiras - Tel.: (16) 9 9749 6635 Taquaritinga -
+        SP. CEP. 15.904-102</p>
+    <p> &copy; Todos os Direitos Reservados 2023</p>     
+  </footer>
+
+  <script>
+    function toggleContrast() {
+      const body = document.body;
+      body.classList.toggle('inverted');
+    }
+
+
+  </script>
+
+  <script type="text/javascript" src="script.js"></script>
+  </script>
+
+
 </html>
